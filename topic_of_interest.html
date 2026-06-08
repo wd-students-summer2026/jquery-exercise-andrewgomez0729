@@ -1,1 +1,64 @@
-<!-- place your HTML code here -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>
+            Videogames             
+        </title>
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <script src="js/jquery.min.js"></script>
+        <script src="js/velocity.min.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <div class=container>
+            <h1>Call of Duty: Black Ops 7</h1>
+            <header>
+                <nav>
+                    <h2>Page Navigation</h2>
+                    <ul>
+                        <li><a href="index.html">Home Page</a></li>
+                        <li><a href="more_about_me.html">More About Me</a></li>
+                    </ul>
+                </nav>
+            </header> 
+            <main>
+                <section class="article_container">
+                    <article id="article_1"
+                        onmouseover="changeArticle1Content()"
+                        onmouseout="revertArticle1Content()"
+                     >
+                        <h2>The Thrill of Online Multiplayer</h2>
+                        <p>
+                            Call of Duty: Black Ops 7 is incredibly fun to play because 
+                            of the intense lobby culture. You can voice chat directly 
+                            with other players, hear them get furious when you outplay 
+                            them, and watch them rage quit mid-match. Seeing opposing 
+                            players get genuinely mad makes every victory feel much 
+                            more rewarding.
+                        </p>
+                        <img src="images/operator_blackops.jpg" />
+                    </article>
+                    <article id="article_2"
+                        onmouseover="animateArticle2Heading()" 
+                        onclick="resizeArticle2Image()"
+                     >
+                        <h2>Scorestreaks</h2>
+                        <p>
+                            In Black Ops 7, stringing together multiple eliminations 
+                            without dying allows you to call in devastating scorestreaks.
+                            These tactical tools can completely shift the momentum of an
+                            online match by tracking down enemy players or clearing out 
+                            objectives. One classic, fan-favorite streak is the 
+                            remote-controlled RC-XD explosive car. Another cool thing
+                            you can call in is a nuke, also known as a nuclear, which 
+                            you get when you get 30 kills without dying and this ends the 
+                            game and you automatically win.
+                        </p>
+                        <img src="images/nuke_blackops.jpg" />
+                        <button>Huge Explosion</button>                
+                    </article>
+                </section>
+            </main>
+        </div>
+    </body>
